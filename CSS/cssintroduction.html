@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: rgb(201, 29, 98);
+            color: aliceblue;
+        }
+        .first{
+            background-color: rgb(157, 29, 95);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        .para{
+            background-color: rgba(74, 4, 35, 0.648);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+        }
+        .example{
+            background-color: rgb(89, 9, 25);
+        }
+        .ex{
+            background-color: blanchedalmond;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <section>
+            <h1 class="first">CSS: Cascading Style Sheets</h1>
+        </section>
+        <section>
+            <p class="para">Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.<br>
+                CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts. This separation can improve content accessibility;[further explanation needed] provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+            </p>
+        </section>
+        <section>
+            <h3>CSS Syntax</h3>
+            <p>.The selector points to the HTML element you want to style <br>
+
+                .The declaration block contains one or more declarations separated by semicolons.<br>
+                
+                .Each declaration includes a CSS property name and a value, separated by a colon.<br>
+                
+                .Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+                <h5 class="example">Example</h5>
+              <pre class="ex">
+                p {
+                    color: red;
+                    text-align: center;
+                  }
+              </pre>
+          
+                (1)P is a selector in CSS (it points to the HTML element you want to style: p.<br>
+                    (2)color is a property, and red is the property value<br>
+                   (3) text-align is a property, and center is the property value
+           
+        </section>
+        <section>
+            <h2>CSS Selectors</h2>
+            <p>A CSS selector selects the HTML element(s) you want to style.</p>
+            <h3>CSS Selectors:</h3>
+            <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+         <p>We can divide CSS selectors into <b>five categories</b>:</p>
+         <ol>
+            <li><b>Simple selectors </b>(select elements based on name, id, class)</li>
+            <li><b>Combinator selectors </b>(select elements based on a specific relationship between them</li>
+            <li><b>Pseudo-class selectors</b> (select elements based on a certain state)</li>
+            <li><b>Pseudo-elements selectors </b>(select and style a part of an element)</li>
+            <li><b>Attribute selectors</b> (select elements based on an attribute or attribute value</li>
+         </ol>
+         </li>
+        </section>
+    </header>
+
+</body>
+</html>
