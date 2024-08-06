@@ -1,0 +1,79 @@
+
+/* cobinators */
+/* It is used to point out the html elemnts based on the rel between
+descending selector space
+child selector (>)
+adjacent sibling (+)
+General sibling (~) 
+
+*/
+
+
+/* Pseudo class selectors */
+/* It is used to point the HTML elements based on SPECIAL STATE or POSTION OF THE ELEMENT.
+
+syntax
+
+element:state{
+declaration
+}
+
+
+
+*/
+
+/* ANCHOR TAG STATES:
+
+ 1.Unvisited state :When we give a:link
+ a:link{
+ color:read
+}
+ (link) is called unvisted state.
+ 2.Visited state: a:visited
+ 3.Active state: a:active
+ 4.hover : a:hover  (mouse over)
+
+
+ Focus: input:focus{
+          background-color:
+          color:
+          border--color:
+        }
+
+Target state: #about:target{
+                 background-color: 
+                }
+
+Root :  :root{
+            bacground-color: 
+            bacground-img:
+        }
+        
+*/
+/* 
+CSS-variables
+   variables are the container which stores property values in css
+
+Variable declaration 
+:root{
+  --dark variable
+}
+  
+Usage of variable
+   var(--name)
+
+ */
+
+
+POSTION OF THE ELMENTS
+/* li:nth-child(){
+    backgorund-color:
+
+}
+  
+li:first-child{
+}
+li:s
+
+
+*/
