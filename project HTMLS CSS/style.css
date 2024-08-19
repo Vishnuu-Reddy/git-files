@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.container{
+    background-image: url(./images/banner-02.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    text-align: center;
+    
+}
+.navbar{
+    background-color:#22b3c1;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.navbar img{
+    height: 20px;
+   margin-left: 100PX;
+}
+.navlinks ul li{
+    display: inline;
+    padding: 20px;
+    list-style-type: none;
+   
+    
+}
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+   
+  
+
+
+
+.footer{
+    background-image: url(./images/heading-bg.jpg);
+    background-size: cover;
+    background-color: #0dcaf0;
+    height: 30%;
+    width: 100%;
+    padding: 100px;
+    margin-top:100%;
+    display: flex;
+}
+.footer h2{
+    color: aliceblue;
+    font-family:'Poppins', sans-serif; 
+}
+.footer p{
+    color: aliceblue;
+    font-family:'Poppins', sans-serif; 
+    font-size: 10px;
+    margin-top: -20px;
+}
+.footer h3{
+    font-family: 'Times New Roman', Times, serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    border: 1px solid whitesmoke;
+    height: 12%;
+    width: 14%;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 60%;
+    color: azure;
+
+}
