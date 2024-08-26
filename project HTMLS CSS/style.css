@@ -422,7 +422,7 @@ text-shadow: 1px 1px 1px rgb(0, 251, 255);
 
 }
 .bottomsection2{
-    background-image: url("/images/banner-01.jpg");
+    background-image: url("./images/banner-01.jpg");
     background-size: cover;
     border-radius: 2px solid rgb(0, 255, 64)
     ;
